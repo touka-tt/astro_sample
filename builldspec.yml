@@ -10,6 +10,7 @@ phases:
   build:
     commands:
       - npm run build
-  deploy:
-    commands:
-      aws s3 cp dist/ s3://astro-app-tmngtak --recursive
+artifacts:
+  files:
+    - 'dist/*'
+  discard-paths: yes
