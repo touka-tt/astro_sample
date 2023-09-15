@@ -1,0 +1,20 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-astrosample-prod-222212-authRole",
+      "UnauthRoleArn": "arn:aws:iam::769139501067:role/amplify-astrosample-prod-222212-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::769139501067:role/amplify-astrosample-prod-222212-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-astrosample-prod-222212-deployment",
+      "UnauthRoleName": "amplify-astrosample-prod-222212-unauthRole",
+      "StackName": "amplify-astrosample-prod-222212",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:769139501067:stack/amplify-astrosample-prod-222212/e431eb40-53ca-11ee-b3d0-06bbc29e5367",
+      "AmplifyAppId": "d3fjv8h1g1ni9o"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}
